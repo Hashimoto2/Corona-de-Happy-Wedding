@@ -1,4 +1,4 @@
-# <Corona de Happy Wedding>
+# Corona de Happy Wedding
 
 ## サイト概要
 ウエディング情報サイト
