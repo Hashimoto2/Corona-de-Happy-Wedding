@@ -1,0 +1,40 @@
+<div class="row">
+  <div class="col-xs-8"><br><br><br><br><br><br>
+    <section>
+      <table class="table">
+        <thead></thead>
+        <tbody>
+    		    <td>
+    		      <div class="name11"><%= @article.title %></div>
+    		      <div class="image11"><%= attachment_image_tag @article, :image, size:'200x170' %></div>
+    		      <div class="name11"><%= @article.introduction %></div>
+            </td>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><%= link_to "編集する", edit_article_path(@article.id) %></td>
+            </tr>
+        <tbody>
+      </table>
+    </section>
+  </div>
+  <div class="col-xs-3"><br><br><br><br><br><br>
+    <table class="table table-bordered genre-table">
+    <thead>
+      <tr>
+        <th>カテゴリー</th>
+      </tr>
+    </thead>
+    <tbody>
+    <%# @genres.each do |genre| %>
+      <tr>
+        <td>
+          <%#= link_to genre.name, products_path(genre_id: genre.id) %>
+        </td>
+      </tr>
+    <%# end %>
+    </tbody>
+  </table>
+  <h5>カレンダー</h5>
+</div>
